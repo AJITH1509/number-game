@@ -1,0 +1,107 @@
+body {
+  background-color: #f8f0e5;
+}
+.guessing-game-container {
+  position: relative;
+  text-align: center;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.game-name {
+  font-size: 50px;
+  margin-bottom: 20px;
+  font-family: "Alumni Sans Inline One", cursive;
+}
+.game-name span {
+  font-size: 60px;
+  color: blue;
+}
+
+.start-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.exit-button {
+  background-color: #ff0400;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.start-new-button {
+  background-color: #22ff00;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.field-container {
+  margin-top: 20px;
+}
+
+.feedback {
+  font-size: 24px;
+  margin: 10px;
+  color: red;
+}
+
+.attempts {
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.guess-input {
+  padding: 5px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: 1px solid blue;
+  background-color: #f8f0e5;
+}
+.guess-input:focus {
+  outline: 3px solid #9dff00;
+}
+.player-name {
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.guess-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.show-answer {
+  margin: 10px;
+  display: inline-block;
+  padding: 5px;
+  cursor: pointer;
+  background-color: aqua;
+  border-radius: 3px;
+}
+.note {
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  text-align: left;
+}
+.note h4 {
+  color: red;
+  text-decoration: underline;
+}
+.note p {
+  font-weight: bold;
+}
