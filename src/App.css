@@ -105,3 +105,6 @@ body {
 .note p {
   font-weight: bold;
 }
+button:hover {
+  opacity: 0.5;
+}
